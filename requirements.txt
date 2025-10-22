@@ -1,0 +1,12 @@
+numpy==1.23.5
+pandas==2.3.2
+nltk==3.9.1
+datasets==4.1.1
+scikit-learn==1.0.2
+fastapi==0.117.1
+pydantic==2.11.9
+torch==2.5.1+cu121
+mlflow==3.4.0
+dagshub==0.6.3
+transformers==4.56.2
+huggingface_hub==0.35.1
