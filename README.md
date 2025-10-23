@@ -1,4 +1,4 @@
-This project performs sentiment analysis on customer reviews from the Telco Customer Churn Dataset and automatically generates personalized replies to each review using advanced NLP models.
+This project performs sentiment analysis on customer reviews from the Telco Customer Churn Dataset and automatically generates personalized replies to each review using advanced NLP model.
 
 The system is designed for telecom customer feedback management — helping companies understand sentiment trends and respond intelligently to customers in real time.
 
@@ -16,6 +16,10 @@ Models Used :
 
 Sentiment Classification	tabularisai/robust-sentiment-analysis	Hugging Face
 Auto Reply Generation	meta-llama/Llama-3.2-1B-Instruct	Meta LLaMA
+
+Data Processing :
+
+The dataset is loaded and cleaned using various NLP libraries to remove redundant characters, punctuation, and stopwords during preprocessing. After cleaning, the sentiment analysis model predicts sentiment  for each review, and the LLM generates a personalized, context-aware reply.
 
 Installation : 
 
