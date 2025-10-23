@@ -8,7 +8,7 @@ Sentiment Analysis on customer reviews using a fine-tuned transformer model.
 
 Automated Customer Replies generated with an LLM for professional, context-aware responses.
 
-FastAPI-based API for real-time interaction and easy integration with dashboards or customer support systems.
+FastAPI-based API for real-time interaction and easy integration.
 
 MLflow + DagsHub Integration for experiment tracking.
 
@@ -42,4 +42,10 @@ uvicorn main:app --reload
 Results :
 
 <img width="1370" height="792" alt="image" src="https://github.com/user-attachments/assets/a1f4ff38-a1c1-4c90-a723-7286a75e4c18" />
+
+<img width="1352" height="763" alt="image" src="https://github.com/user-attachments/assets/e89fd971-d12c-477a-97d9-32ecd14c2a93" />
+
+<img width="1378" height="722" alt="image" src="https://github.com/user-attachments/assets/a0c22bfb-25dd-421c-9562-7026697e1a97" />
+
+
 
