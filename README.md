@@ -38,3 +38,8 @@ python -m app.reply
 
 6) Running the API : 
 uvicorn main:app --reload
+
+Results :
+
+<img width="1370" height="792" alt="image" src="https://github.com/user-attachments/assets/a1f4ff38-a1c1-4c90-a723-7286a75e4c18" />
+
