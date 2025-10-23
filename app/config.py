@@ -13,7 +13,7 @@ MLFLOW_TRACKING_URI = os.getenv("MLFLOW_TRACKING_URI", "https://dagshub.com/Chai
 MLFLOW_EXPERIMENT = os.getenv("MLFLOW_EXPERIMENT", "Sentiment")
 
 ARTIFACT_DIR = os.getenv("ARTIFACT_DIR", "runs")
-MODEL_DIR = os.path.join(ARTIFACT_DIR, "fine_tuned_telco_sentiment")
+MODEL_DIR = os.path.normpath(os.path.join(DATA_DIR, ARTIFACT_DIR, "fine_tuned_telco_sentiment"))
 MODEL_FILE = os.path.join(ARTIFACT_DIR, "model.pkl")
 FEATURES_FILE = os.path.join(ARTIFACT_DIR, "feature_columns.pkl")
 METRICS_FILE = os.path.join(ARTIFACT_DIR, "metrics.json")
